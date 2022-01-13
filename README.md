@@ -163,7 +163,7 @@ features:
 Finally, update the `specVersion` to be 0.0.4:
 
 ```yaml
-specVersion: 0.0.2
+specVersion: 0.0.4
 ```
 
 The final __subgraph.yaml__ should look like this:
