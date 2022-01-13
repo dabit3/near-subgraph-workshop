@@ -2,6 +2,8 @@
 
 In this workshopp we'll build a subgraph for querying NTF data from the [Misfits](https://explorer.near.org/accounts/misfits.tenk.near) smart contract, implementing queries for fetching NFTs as well as their owners, and building relationships between them.
 
+You can view the example codebase we will be building [here](https://github.com/dabit3/near-nft-subgraph).
+
 ### Prerequisites
 
 To be successful in this tutorial, you should have [Node.js](https://nodejs.org/en/) installed on your machine. These days, I recommend using either [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm/blob/master/docs/commands.md) to manage Node.js versions.
