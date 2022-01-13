@@ -61,7 +61,6 @@ $ graph init --from-contract misfits.tenk.near --contract-name Token
 ? Protocol › near
 ? Subgraph name › your-username/nearmisfits
 ? Directory to create the subgraph in › nearmisfits
-? Ethereum network › Mainnet
 ? NEAR network › near-mainnet
 ? Contract account › misfits.tenk.near
 ? Contract Name · Token
