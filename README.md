@@ -292,7 +292,7 @@ function handleAction(
 
 ```
 
-These mappings will handle events for when a new token is created, transferred, or updated. When these events fire, the mappings will save the data into the subgraph.
+These mappings will handle events for when a new token is minted or bought. When these actions happen, the mappings will save the data into the subgraph.
 
 ### Running a build
 
