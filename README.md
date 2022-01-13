@@ -320,11 +320,11 @@ $ yarn deploy
 
 Once the subgraph is deployed, you should see it show up in your dashboard:
 
-![Graph Dashboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q548jeq4kuhgddrjv0dv.jpg)
+![Graph Dashboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/elmlu7jf6wdrz07nhu3x.png)
 
 When you click on the subgraph, it should open the Graph explorer:
 
-![The Near Subgraph](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9qremconu1io72z3g6pa.png)
+![The Near Subgraph](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v5jr3dk9yc0b3nvs2w93.png)
 
 ## Querying for data
 
