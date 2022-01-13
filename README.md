@@ -59,7 +59,7 @@ In our case we'll be starting with the [Misfits NFT contract](https://explorer.n
 $ graph init --from-contract misfits.tenk.near --contract-name Token
 
 ? Protocol › near
-? Subgraph name › username/nearmisfits
+? Subgraph name › your-username/nearmisfits
 ? Directory to create the subgraph in › Foundationsubgraph
 ? Ethereum network › Mainnet
 ? NEAR network › near-mainnet
