@@ -152,7 +152,7 @@ source:
 
 Next, we'll want to enable a couple of features like __Full Text Search__ as well as the __IPFS API__.
 
-To do this, add the following feature flags as top level configurations (after the s`chema` declaration):
+To do this, add the following feature flags as top level configurations (after the `schema` declaration):
 
 ```yaml
 features:
