@@ -60,7 +60,7 @@ $ graph init --from-contract misfits.tenk.near --contract-name Token
 
 ? Protocol › near
 ? Subgraph name › your-username/nearmisfits
-? Directory to create the subgraph in › Foundationsubgraph
+? Directory to create the subgraph in › nearmisfits
 ? Ethereum network › Mainnet
 ? NEAR network › near-mainnet
 ? Contract account › misfits.tenk.near
@@ -325,7 +325,7 @@ Once the subgraph is deployed, you should see it show up in your dashboard:
 
 When you click on the subgraph, it should open the Graph explorer:
 
-![The Foundation Subgraph](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9qremconu1io72z3g6pa.png)
+![The Near Subgraph](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9qremconu1io72z3g6pa.png)
 
 ## Querying for data
 
