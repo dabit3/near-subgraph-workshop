@@ -203,9 +203,8 @@ Next, open __src/mappings.ts__ to write the mappings that we defined in our subg
 Update the file with the following code:
 
 ```typescript
-import { near, JSONValue, json, ipfs } from "@graphprotocol/graph-ts"
+import { near, JSONValue, json, ipfs, log } from "@graphprotocol/graph-ts"
 import { Token, User } from "../generated/schema"
-import { log } from '@graphprotocol/graph-ts'
 
 export function handleReceipt(
   receipt: near.ReceiptWithOutcome
