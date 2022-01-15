@@ -230,25 +230,25 @@ function handleAction(
 
   if (methodName == 'buy' || methodName == 'nft_mint_one') {
     for (let logIndex = 0; logIndex < outcome.logs.length; logIndex++) {
-      let outcomeLog = outcome.logs[logIndex].toString();
+      const outcomeLog = outcome.logs[logIndex].toString();
 
       log.info('outcomeLog {}', [outcomeLog])
 
-      let parsed = outcomeLog.replace('EVENT_JSON:', '')
+      const parsed = outcomeLog.replace('EVENT_JSON:', '')
 
-      let jsonData = json.try_fromString(parsed)
+      const jsonData = json.try_fromString(parsed)
       const jsonObject = jsonData.value.toObject()
 
-      let eventData = jsonObject.get('data')
+      const eventData = jsonObject.get('data')
       if (eventData) {
-        let eventArray:JSONValue[] = eventData.toArray()
+        const eventArray:JSONValue[] = eventData.toArray()
 
-        let data = eventArray[0].toObject()
+        const data = eventArray[0].toObject()
         const tokenIds = data.get('token_ids')
         const owner_id = data.get('owner_id')
         if (!tokenIds || !owner_id) return
 
-        let ids:JSONValue[] = tokenIds.toArray()
+        const ids:JSONValue[] = tokenIds.toArray()
         const tokenId = ids[0].toString()
 
         let token = Token.load(tokenId)
@@ -258,12 +258,12 @@ function handleAction(
           token.tokenId = tokenId
           
           token.image = ipfsHash + '/' + tokenId + '.png'
-          let metadata = ipfsHash + '/' + tokenId + '.json'
+          const metadata = ipfsHash + '/' + tokenId + '.json'
           token.metadata = metadata
   
-          let metadataResult = ipfs.cat(metadata)
+          const metadataResult = ipfs.cat(metadata)
           if (metadataResult) {
-            let value = json.fromBytes(metadataResult).toObject()
+            const value = json.fromBytes(metadataResult).toObject()
             if (value) {
               const kind = value.get('kind')
               if (kind) {
